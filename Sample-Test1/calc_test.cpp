@@ -1,6 +1,6 @@
 #include "pch.h"
 
-TEST(TestCaseName, TestName) {
-  EXPECT_EQ(1, 1);
-  EXPECT_TRUE(true);
+TEST(TestCaseName, Minus) {
+	int ans = getMinus(2,1;
+	EXPECT_EQ(actural, 1);
 }
