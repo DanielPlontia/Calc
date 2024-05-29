@@ -7,8 +7,7 @@ public:
     int getGop(int a, int b) {
         return a * b;
     }
+    int  getZegop(int a) {
+        return a * a;
+    }
 };
-
-int  getZegop(int a) {
-	return a * a;
-}

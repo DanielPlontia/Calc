@@ -22,8 +22,6 @@ TEST(Calc, GopTest_All_Negetive) {
 }
 
 TEST(CalcTest, JegobTest) {
-	int expected = 100;
-	int input = 10;
-	int actual = getZegop(input);
-    EXPECT_EQ(actual, expected);
+    Calc* calc = new Calc();
+    EXPECT_EQ(100, calc->getZegop(10));
 }
