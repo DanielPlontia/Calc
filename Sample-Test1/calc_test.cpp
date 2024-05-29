@@ -1,6 +1,8 @@
 #include "pch.h"
+#include "../Project10/calcl.cpp"
 
 TEST(TestCaseName, Minus) {
-	int ans = getMinus(2,1);
+	Calc cal;
+	int ans = cal.getMinus(2, 1);
 	EXPECT_EQ(ans, 1);
 }
