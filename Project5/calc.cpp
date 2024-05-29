@@ -1,8 +1,17 @@
+#include <iostream>
 #include <string>
+using namespace std;
 
-int getDivide(int a, int b) {
-	if (b == 0) {
-		throw std::string("You cannot divide by zero");
+class Calc {
+public:
+    int getGop(int a, int b) {
+        return a * b;
+    }
+
+	int getDivide(int a, int b) {
+		if (b == 0) {
+			throw string("You cannot divide by zero");
+		}
+		return a / b;
 	}
-	return a / b;
-}
+};
