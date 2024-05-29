@@ -1,5 +1,10 @@
 #include "pch.h"
-#include "../Project5/calc.cpp"
+
+TEST(Calc, Minus) {
+	Calc* calc = new Calc();
+	int ans = calc->getMinus(2, 1);
+	EXPECT_EQ(ans, 1);
+}
 
 TEST(Calc, GetSum) {
     Calc* calc = new Calc();
