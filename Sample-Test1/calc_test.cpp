@@ -1,6 +1,7 @@
 #include "pch.h"
+#include "../Project5/calc.cpp"
 
-TEST(TestCaseName, TestName) {
-  EXPECT_EQ(1, 1);
-  EXPECT_TRUE(true);
+TEST(Calc, GopTest_Normal) {
+    Calc *calc = new Calc();
+    EXPECT_EQ(4, calc->getGop(1, 4));
 }
